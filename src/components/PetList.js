@@ -15,7 +15,7 @@ const PetList = ({pets, deletePet}) => {
 
     return (
         <>
-            <h2>List of Pets</h2>
+            <h3>List of Pets</h3>
             {petComponents}
         </>
     );

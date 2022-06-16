@@ -1,0 +1,14 @@
+form {
+    text-align: center;
+    display: block;
+    margin-bottom: 3rem;
+    background-color: rgb(141, 175, 205);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 50px;
+    border-radius: 5px;
+
+
+}

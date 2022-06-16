@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './NewPetForm.css';
 
 const NewPetForm = ({postPet}) => {
 
@@ -25,29 +26,33 @@ const NewPetForm = ({postPet}) => {
 
     return (
         <>
-            <h3>Add a new pet here!</h3>
             <form onSubmit={handleFormSubmit}>
-                <input type="text" 
+            <h2>Add a new pet here!</h2>
+                <p>Enter pet name: <input type="text" 
                     placeholder="pet name" 
                     name="name" 
                     onChange={handleChange} 
-                    value={statePet.name}/>
-                <input type="text" 
+                    value={statePet.name}/></p>
+                    <br></br>
+                <p>Enter pet type: <input type="text" 
                     placeholder="pet type" 
                     name="type" 
                     onChange={handleChange} 
-                    value={statePet.type}/>
-                <input type="text" 
+                    value={statePet.type}/></p>
+                    <br></br>
+                <p>Enter pet breed: <input type="text" 
                     placeholder="pet breed" 
                     name="breed" 
                     onChange={handleChange} 
-                    value={statePet.breed}/>
-                <input type="text" 
+                    value={statePet.breed}/></p>
+                    <br></br>
+                <p>Enter pet age: <input type="text" 
                     placeholder="pet age" 
                     name="age" 
                     onChange={handleChange} 
-                    value={statePet.age}/>
-                <button type="submit">OK</button>
+                    value={statePet.age}/></p>
+                    <br></br>
+                <button type="submit">ENTER</button>
             </form>
 
         </>

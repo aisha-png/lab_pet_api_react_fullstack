@@ -7,4 +7,10 @@
 h1 {
     
     color: rgb(40, 40, 87);
+    -ms-text-size-adjust: auto;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    margin-bottom: auto;
+    padding: 30px;
 }
