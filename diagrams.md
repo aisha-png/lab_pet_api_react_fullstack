@@ -1,1 +1,0 @@
-![](../../../../../../../Desktop/Pet_fullstack_diagram.png)
