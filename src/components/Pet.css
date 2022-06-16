@@ -1,9 +1,25 @@
 
-.individual-pet {
+.each_pet {
     background-color: rgb(133, 184, 180);
     padding-left: 2rem;
-    padding-right: 2 rem;
-    padding-top: 1 rem;
-    padding-bottom: 1 rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     margin: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 10px #888888;
+    display: flex;
+}
+
+h3 {
+    color: rgb(61, 72, 122);
+}
+
+button {
+    border: 2px solid rgb(24, 43, 85);
+    border-radius: 12px;
+    padding: 5px;
+    background-color: rgb(88, 88, 137);
 }

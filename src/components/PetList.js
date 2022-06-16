@@ -1,4 +1,5 @@
 import Pet from "./Pet";
+import './PetList.css'
 
 const PetList = ({pets, deletePet}) => {
     const petComponents = pets.map(pet => {

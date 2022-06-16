@@ -11,7 +11,7 @@ const Pet = ({pet, deletePet}) => {
         
         <>
             <div className="body">
-                <div className="individual-pet">
+                <div className="each_pet">
                     <h3>{pet.name}</h3>
                     <p>Type: {pet.type}</p>
                     <p>Breed: {pet.breed}</p>
