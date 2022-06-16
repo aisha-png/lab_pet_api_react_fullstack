@@ -1,6 +1,7 @@
 import NewPetForm from "../components/NewPetForm";
 import PetList from "../components/PetList";
 import { useState, useEffect } from "react";
+import './PetContainer.css';
 
 
 const PetContainer = () => {
@@ -36,14 +37,16 @@ const PetContainer = () => {
 
     return (
         <>
-            <h1>Single Origin Pet</h1>
-            <NewPetForm
-                postPet={postPet} 
-                />
-            <PetList 
-                pets={pets}
-                deletePet={deletePet}
-                />
+            <div className="body">
+                <h1>Single Origin Pet</h1>
+                <NewPetForm
+                    postPet={postPet} 
+                    />
+                <PetList 
+                    pets={pets}
+                    deletePet={deletePet}
+                    />
+            </div>
         </>
     );
 }

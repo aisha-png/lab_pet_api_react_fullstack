@@ -1,4 +1,4 @@
-import Pet from "./Pet"
+import Pet from "./Pet";
 
 const PetList = ({pets, deletePet}) => {
     const petComponents = pets.map(pet => {
@@ -15,7 +15,6 @@ const PetList = ({pets, deletePet}) => {
     return (
         <>
             <h2>List of Pets</h2>
-            <hr />
             {petComponents}
         </>
     );

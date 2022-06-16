@@ -3,9 +3,9 @@ import PetContainer from './containers/PetContainer';
 
 function App() {
   return (
-    <>
+    <div className='main'>
       <PetContainer />
-    </>
+    </div>
     
   );
 }
